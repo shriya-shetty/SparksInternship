@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap&display=swap');
+
+body{
+    font-family: 'Kaushan Script', cursive;
+    min-height: 100vh;
+}
+/* Navbar style*/
+.navbar{
+    text-transform: uppercase;
+}
+.navbar {
+    z-index: 2;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.nav-link{
+    color: #FACE7F;
+}
+.nav-link:hover{
+    color: #FACE7F;
+    border-style: hidden hidden solid;
+    border-color: #FACE7F;
+}
+/* Navbar style */
+
+/* Toggle Button */
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250, 206, 127, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler.navbar-toggler {
+  border-color: #FACE7F;
+}
+.navbar-toggler{
+    color: #FACE7F;
+} 
+/* Toggle Button */
+
+h1{
+    text-align: center;
+    margin: 50px;
+    color: #753422;
+}
+span{
+    border-style: hidden solid;
+    border-color: #753422;
+    padding: 12px;
+}
+/* Banner Design */
+#banner{
+    height: 100vh;
+}
+/* Banner Design */
+
+/* Buttons Style */
+.btn.btn-primary{
+    background-color: #753422;
+    border-color:#753422;
+    color:#ffe4b5;
+}
+.btn.btn-primary:hover{
+    background-color: #FACE7F;
+    color:#753422;
+    border-color:#753422;
+}
+/* Buttons Style */
+
+/* Footer */
+.sticky-footer{
+    position: sticky;
+    top: 100%;
+    color:#FACE7F;
+}
+/* Footer */
+
+a{
+    text-decoration: none;
+    color: #FACE7F;
+}
+a:hover{
+    color: #FACE7F;
+    border-style: hidden hidden solid;
+    border-color: #FACE7F;
+}
+
+/* Transaction Form */
+form{
+    background-color: rgba(250, 206, 127,0.7);
+}
+/* Transaction Form */
